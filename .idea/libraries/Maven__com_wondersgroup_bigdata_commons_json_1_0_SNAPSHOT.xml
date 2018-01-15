@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.wondersgroup.bigdata:commons-json:1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.m2/repository/com/wondersgroup/bigdata/commons-json/1.0-SNAPSHOT/commons-json-1.0-20171017.073506-13.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.m2/repository/com/wondersgroup/bigdata/commons-json/1.0-SNAPSHOT/commons-json-1.0-20171017.073506-13-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.m2/repository/com/wondersgroup/bigdata/commons-json/1.0-SNAPSHOT/commons-json-1.0-20171017.073506-13-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

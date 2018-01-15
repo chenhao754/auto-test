@@ -1,0 +1,53 @@
+
+<auto>
+    <beans>
+        <mail>chenhao754@qq.com</mail>
+        <bean>
+            <mail>chenhao754@qq.com</mail>
+            <name>adminController</name>
+            <api>
+                <mail>chenhao754@qq.com</mail>
+                <url>/admin/init</url>
+                <type>get</type>
+                <select>
+                    <params>
+                        <body>
+                            <param>
+                                <key>name</key>
+                                <list>
+                                    <value></value>
+                                </list>
+                                <map>
+                                    <param>
+
+                                    </param>
+                                </map>
+
+                                <value>username</value>
+                            </param>
+                            <param>
+                                <key>age</key>
+                                <value>10</value>
+                            </param>
+                        </body>
+                        <param>
+                            <key>id</key>
+                            <value>10</value>
+                        </param>
+                        <header>
+                            <key>name</key>
+                            <value>user</value>
+                        </header>
+                    </params>
+                    <results>
+                        <result>
+                            <key>name</key>
+                            <value>user</value>
+                        </result>
+                    </results>
+                </select>
+
+            </api>
+        </bean>
+    </beans>
+</auto>
