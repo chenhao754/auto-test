@@ -1,10 +1,12 @@
 # auto-test
-封装Spring和Junit，自动测试
-本项目是利用Spring和Junit的MOCK测试Controller，通过XML配置文件配置信息。
-首先分析本项目的规定的XML结构：
-针对Spring的Controller，本文通过XML文件描述。
-以下是一个配置例子：
+#### 封装Spring和Junit，自动测试
+#### 本项目是利用Spring和Junit的MOCK测试Controller，通过XML配置文件配置信息。
+#### 首先分析本项目的规定的XML结构：
+#### 针对Spring的Controller，本文通过XML文件描述。
+#### 以下是一个配置例子：
 
+
+```
 <auto>                                  <!-- auto节点是本文规定的根节点 -->
     <beans>                             <!-- beans节点是所有需要测试的controller节点的父节点 -->
         <mail>chenhao754@qq.com</mail>  <!-- mail表示beans中任意一个bean中api测试错误就会发邮件通知 -->
@@ -29,7 +31,6 @@
                                        <value></value>
                                     </param>
                                 </map>
-
                                 <value>username</value>
                             </param>
                             <param>
@@ -53,11 +54,12 @@
                         </result>
                     </results>
                 </select>
-
             </api>
         </bean>
     </beans>
 </auto>
+```
+
 
 项目中一共有四个包：
 1.analysis：用于分析XML节点，入口是DispatchAnalysis
